@@ -101,6 +101,51 @@
   line-height: 32px;
 }
 
+.modal-body {
+  padding: 0;
+}
+
+.addform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.addform__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.addform__btn-add {
+  width: 45%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.addform__btn-close {
+  width: 45%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.addform input[type=text] {
+  border: none;
+  outline: none;
+  height: 60px;
+  padding: 15px;
+}
+
 .wrapper {
   position: relative;
 }
